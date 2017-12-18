@@ -6,6 +6,7 @@ namespace SortingAlgorithms
 {
     class SortI
     {
+        //insertion Sor O(n^2)
         static private void Sort(int[] array, int length)
         {
             for (int i = 1; i < length; i++)

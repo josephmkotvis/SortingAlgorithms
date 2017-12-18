@@ -6,6 +6,7 @@ namespace SortingAlgorithms
 {
     class SortQ
     {
+        //quicksort O(nlogn)
         static private int Partition(int[] array, int left, int right)
         {
             int pivot = array[left];

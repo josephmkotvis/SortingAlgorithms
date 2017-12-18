@@ -6,6 +6,7 @@ namespace SortingAlgorithms
 {
     class SortM
     {
+        //Merge sort O(n log n)
         public static int[] Recursive(int[] array)
         {
             Recursive(array, 0, array.Length);
